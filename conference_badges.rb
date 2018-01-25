@@ -21,7 +21,9 @@ def printer(list)
   rooms = assign_rooms(list)
   i = 0
   while i < list.length
-    puts names[0]
+    puts names[i]
+    puts rooms[i]
+    i++
   end
   list.each{|x|
 end
