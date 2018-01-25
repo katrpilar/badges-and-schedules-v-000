@@ -17,7 +17,11 @@ def assign_rooms(list)
 end
 
 def printer(list)
-  for()
-  puts batch_badge_creator(list)
-  puts assign_rooms(list)
+  names = batch_badge_creator(list)
+  rooms = assign_rooms(list)
+  i = 0
+  while i < list.length
+    puts names[0]
+  end
+  list.each{|x|
 end
