@@ -15,3 +15,8 @@ def assign_rooms(list)
   list.each_with_index{|person,index| rmls << "Hello, #{person}! You'll be assigned to room #{index + 1}!"}
   return rmls
 end
+
+def printer(list)
+  puts batch_badge_creator(list)
+  puts assign_rooms(list)
+end
