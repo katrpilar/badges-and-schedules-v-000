@@ -12,6 +12,6 @@ end
 
 def assign_rooms(list)
   rmls = []
-  list.each{|person| rmls << "Hello, #{person}! You'll be assigned to room #{list.index(person) + 1}!"}
+  list.each_with_index{|person,index| rmls << "Hello, #{person}! You'll be assigned to room #{index + 1}!"}
   return rmls
 end
