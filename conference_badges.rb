@@ -23,6 +23,6 @@ def printer(list)
   while i < list.length
     puts names[i]
     puts rooms[i]
-    i++
+    i += 1
   end
 end
