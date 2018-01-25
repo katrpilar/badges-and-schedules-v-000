@@ -10,7 +10,7 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(list)
-  rmls = 
   rm_num = 1
-  list.each{|person| "Hello, #{person}! You'll be assigned to room #{rm_num}!" 
+  rmls = list.each{|person| "Hello, #{person}! You'll be assigned to room #{rm_num}!" rm_num++}
+  return rmls
 end
