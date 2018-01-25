@@ -25,5 +25,4 @@ def printer(list)
     puts rooms[i]
     i++
   end
-  list.each{|x|
 end
