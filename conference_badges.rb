@@ -5,11 +5,12 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  array.each{|person| badge_maker(person)}
+  assigned = array.each{|person| badge_maker(person)}
+  return assigned
 end
 
 def assign_rooms(list)
   rmls = 
-  rm_num 
-  list.each{|person| "Hello, #{person}! You'll be assigned to room _____!"
+  rm_num = 1
+  list.each{|person| "Hello, #{person}! You'll be assigned to room #{rm_num}!" 
 end
